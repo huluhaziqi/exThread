@@ -4,6 +4,11 @@ public class StopTest {
     public static void main(String[] args) {
         MyThread05 myThread05 = new MyThread05();
         myThread05.start();
+//        try {
+////            Thread.sleep(3000);
+//        } catch (InterruptedException e) {
+//            e.printStackTrace();
+//        }
         myThread05.interrupt();
         //this.isInterrupted()不具备清楚状态标记的功能，不是static方法
         System.out.println("myThread05 is interrupt() : " + myThread05.isInterrupted());
@@ -18,6 +23,8 @@ public class StopTest {
         }
         Thread.currentThread().interrupt();
         System.out.println("是否停止 ： =====" + Thread.interrupted());
+        System.out.println("是否停止 ： =====" + Thread.interrupted());
+        System.out.println("是否停止 ： =====" + Thread.interrupted());
     }
 }
 
@@ -28,6 +35,10 @@ class MyThread05 extends Thread {
     public void run() {
         for (int i = 0; i < 50000; i++) {
             System.out.println("i = " + i);
+            if(this.isInterrupted()){
+                System.out.println("");
+                break;
+            }
 //            this.interrupt();
 //            System.out.println(Thread.interrupted());
 //            //Thread.interrupted()具备清楚中断状态的功能，因此第二次使用的时候中断状态为false；
