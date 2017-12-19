@@ -20,7 +20,7 @@ class MyThread extends Thread  {
     @Override
     public void run() {
         try {
-            for (int i = 0; i < 50000; i++) {
+            for (int i = 0; i < 500000; i++) {
                 if (this.isInterrupted()) {
                     System.out.println("mythread 停滞状态");
                     throw new InterruptedException();
