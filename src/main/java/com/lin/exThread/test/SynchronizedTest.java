@@ -9,7 +9,7 @@ public class SynchronizedTest {
 //        MyThread2 myThread6 = new MyThread2();
 //        myThread2.start();
 //        myThread3.start();
-//        myThread4.start();
+//        mythread4.start();
 //        myThread5.start();
 //        myThread6.start();
 
