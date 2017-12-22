@@ -1,6 +1,10 @@
 package notifyAndWait;
 
 public class test02 {
+    /**
+     * wait()执行后锁释放，而notify（）执行后需要等到synchronized同步块执行结束之后才能释放
+     * 如果是wait（）状态出现interrupt会抛出异常
+     */
     public static void main(String[] args) {
         Object object = new Object();
         ServiceTest02 serviceTest02 = new ServiceTest02(object);
