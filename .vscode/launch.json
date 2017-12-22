@@ -1,0 +1,367 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DaemonTest<ExThread>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "Daemon.DaemonTest",
+            "projectName": "ExThread",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RunTest<ExThread>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "SuspendAndResume.RunTest",
+            "projectName": "ExThread",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SuspendAndResumeTest<ExThread>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "SuspendAndResume.SuspendAndResumeTest",
+            "projectName": "ExThread",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-GetIdTest<ExThread>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "com.lin.exThread.test.GetIdTest",
+            "projectName": "ExThread",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Main<ExThread>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "com.lin.exThread.test.Main",
+            "projectName": "ExThread",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SleepTest<ExThread>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "com.lin.exThread.test.SleepTest",
+            "projectName": "ExThread",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SynchronizedTest<ExThread>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "com.lin.exThread.test.SynchronizedTest",
+            "projectName": "ExThread",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TestIsAlive<ExThread>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "com.lin.exThread.test.TestIsAlive",
+            "projectName": "ExThread",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PriorityTest01<ExThread>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "priority.PriorityTest01",
+            "projectName": "ExThread",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RunTest<ExThread>(1)",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "priority.RunTest",
+            "projectName": "ExThread",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SleepAndStop<ExThread>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "stop.SleepAndStop",
+            "projectName": "ExThread",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SleepAndStop2<ExThread>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "stop.SleepAndStop2",
+            "projectName": "ExThread",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-StopTest<ExThread>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "stop.StopTest",
+            "projectName": "ExThread",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-StopTest01<ExThread>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "stop.StopTest01",
+            "projectName": "ExThread",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-StopTest02<ExThread>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "stop.StopTest02",
+            "projectName": "ExThread",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TestStop<ExThread>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "stop.TestStop",
+            "projectName": "ExThread",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SychronizedTest01<ExThread>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "synchronize.SychronizedTest01",
+            "projectName": "ExThread",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SynchronizedTest02<ExThread>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "synchronize.SynchronizedTest02",
+            "projectName": "ExThread",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SynchronizedTest03<ExThread>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "synchronize.SynchronizedTest03",
+            "projectName": "ExThread",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SynchronizedTest05<ExThread>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "synchronize.SynchronizedTest05",
+            "projectName": "ExThread",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SynchronizedTest06<ExThread>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "synchronize.SynchronizedTest06",
+            "projectName": "ExThread",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SynchronizedTest07<ExThread>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "synchronize.SynchronizedTest07",
+            "projectName": "ExThread",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SynchronizedTest08<ExThread>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "synchronize.SynchronizedTest08",
+            "projectName": "ExThread",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SynchronizedTest09<ExThread>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "synchronize.SynchronizedTest09",
+            "projectName": "ExThread",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SynchronizedTest10<ExThread>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "synchronize.SynchronizedTest10",
+            "projectName": "ExThread",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SynchronizedTest11<ExThread>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "synchronize.SynchronizedTest11",
+            "projectName": "ExThread",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SynchronizedTest12<ExThread>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "synchronize.SynchronizedTest12",
+            "projectName": "ExThread",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SynchronizedTest13<ExThread>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "synchronize.SynchronizedTest13",
+            "projectName": "ExThread",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-VolatileTest01<ExThread>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "volatileTest.VolatileTest01",
+            "projectName": "ExThread",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-YieldTest<ExThread>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "yield.YieldTest",
+            "projectName": "ExThread",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-notifyAndWait<ExThread>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "notifyAndWait.test01",
+            "projectName": "ExThread",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-test02<ExThread>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "notifyAndWait.test02",
+            "projectName": "ExThread",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Attach)",
+            "request": "attach",
+            "hostName": "localhost",
+            "port": 0
+        }
+    ]
+}
