@@ -9,11 +9,11 @@ public class Test04 {
         Add add = new Add(lock);
         Sub sub = new Sub(lock);
         MyThreadTest04_1 myThreadTest04_1 = new MyThreadTest04_1(add);
-        MyThreadTest04_1 myThreadTest04_2 = new MyThreadTest04_1(add);
+        MyThreadTest04_2 myThreadTest04_2 = new MyThreadTest04_2(sub);
         MyThreadTest04_2 myThreadTest04_3 = new MyThreadTest04_2(sub);
-        myThreadTest04_1.setName("ADD A");
-        myThreadTest04_1.start();
-        myThreadTest04_2.setName("ADD B");
+        myThreadTest04_3.setName("sub A");
+        myThreadTest04_3.start();
+        myThreadTest04_2.setName("sub B");
         myThreadTest04_2.start();
         //
         try {
@@ -21,8 +21,8 @@ public class Test04 {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        myThreadTest04_3.setName("SUB C");
-        myThreadTest04_3.start();
+        myThreadTest04_1.setName("add C");
+        myThreadTest04_1.start();
 
 
 
