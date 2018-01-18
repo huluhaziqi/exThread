@@ -7,8 +7,12 @@ public class PAndCForList {
 
     public static void main(String[] args) {
 
+        //消费者的if(size == 0)进行判断的时候可能这时候状态已经改变，size！= 0 ，而此时进行remove造成错误，因此将if改成while
+        //如果生产者唤醒的是同类，造成阻塞所有的生产者，消费者也相应的阻塞，因此需要将notify 改成notifyAll不仅通知同类，还需要通知异类
         MyStack myStack = new MyStack();
         ProducerForList producerForList = new ProducerForList(myStack);
+        ProducerForList producerForList2 = new ProducerForList(myStack);
+        ProducerForList producerForList3 = new ProducerForList(myStack);
         ConsumerForList consumerForList1 = new ConsumerForList(myStack);
         ConsumerForList consumerForList2 = new ConsumerForList(myStack);
         ConsumerForList consumerForList3 = new ConsumerForList(myStack);
@@ -17,6 +21,10 @@ public class PAndCForList {
 
         ThreadForList1 threadForList1 = new ThreadForList1(producerForList);
         threadForList1.setName("生产者 1");
+        ThreadForList1 threadForList2 = new ThreadForList1(producerForList2);
+        threadForList2.setName("生产者 2");
+        ThreadForList1 threadForList3 = new ThreadForList1(producerForList3);
+        threadForList3.setName("生产者 3");
         ThreadForList2 threadForList21 = new ThreadForList2(consumerForList1);
         threadForList21.setName("消费者 1");
         ThreadForList2 threadForList22 = new ThreadForList2(consumerForList2);
@@ -29,6 +37,8 @@ public class PAndCForList {
         threadForList25.setName("消费者 5");
 
         threadForList1.start();
+        threadForList2.start();
+        threadForList3.start();
         threadForList21.start();
         threadForList22.start();
         threadForList23.start();
@@ -121,7 +131,7 @@ class MyStack {
 
     public synchronized void push() {
         try {
-            while (list.size() == 1) {
+            if (list.size() == 1) {
                 System.out.println("阻塞了" + Thread.currentThread().getName());
                 this.wait();
             }
@@ -136,13 +146,13 @@ class MyStack {
     synchronized public String pop() {
         String value = "";
         try {
-            while (list.size() == 0) {
+            if (list.size() == 0) {
                 System.out.println("阻塞了" + Thread.currentThread().getName());
                 this.wait();
             }
             value = (String) list.get(0);
             list.remove(0);
-            this.notifyAll();
+            this.notify();
             System.out.println("pop=" + value);
         } catch (InterruptedException e) {
             e.printStackTrace();
