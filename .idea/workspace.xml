@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="172665a6-3462-4c58-b83c-ca87c3d81ee5" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Lock/lockTest01.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Lock/lockTest02.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Lock/lockTest03.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -76,10 +75,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lockTest02.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="lockTest02.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Lock/lockTest02.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
+            <state relative-caret-position="255">
               <caret line="15" column="12" lean-forward="false" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -87,6 +86,26 @@
                 <element signature="e#660#661#0" expanded="true" />
                 <element signature="e#699#700#0" expanded="true" />
                 <element signature="e#732#733#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lockTest03.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Lock/lockTest03.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2233#2234#0" expanded="true" />
+                <element signature="e#2275#2276#0" expanded="true" />
+                <element signature="e#2314#2315#0" expanded="true" />
+                <element signature="e#2348#2349#0" expanded="true" />
+                <element signature="e#2460#2461#0" expanded="true" />
+                <element signature="e#2502#2503#0" expanded="true" />
+                <element signature="e#2541#2542#0" expanded="true" />
+                <element signature="e#2575#2576#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -171,7 +190,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/lin/exThread/test/SleepTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lin/exThread/test/GetIdTest.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/stop/StopTest.java" />
@@ -222,6 +240,7 @@
         <option value="$PROJECT_DIR$/src/main/java/threadLocal/test03.java" />
         <option value="$PROJECT_DIR$/src/main/java/Lock/lockTest01.java" />
         <option value="$PROJECT_DIR$/src/main/java/Lock/lockTest02.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Lock/lockTest03.java" />
       </list>
     </option>
   </component>
@@ -308,16 +327,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="Lock" type="462c0819:PsiDirectoryNode" />
-              <item name="lockTest01.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="ExThread" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ExThread" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Lock" type="462c0819:PsiDirectoryNode" />
-              <item name="lockTest02.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+              <item name="lockTest03.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
             <path>
               <item name="ExThread" type="b2602c69:ProjectViewProjectNode" />
@@ -357,7 +367,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.lockTest02">
+  <component name="RunManager" selected="Application.lockTest03">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -416,14 +426,14 @@
       <module name="ExThread" />
       <envs />
     </configuration>
-    <configuration name="test01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="lockTest03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="threadLocal.*" />
+          <option name="PATTERN" value="Lock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="threadLocal.test01" />
+      <option name="MAIN_CLASS_NAME" value="Lock.lockTest03" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -534,19 +544,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.test01" />
-      <item index="1" class="java.lang.String" itemvalue="Application.test02" />
-      <item index="2" class="java.lang.String" itemvalue="Application.test03" />
-      <item index="3" class="java.lang.String" itemvalue="Application.lockTest01" />
-      <item index="4" class="java.lang.String" itemvalue="Application.lockTest02" />
+      <item index="0" class="java.lang.String" itemvalue="Application.test02" />
+      <item index="1" class="java.lang.String" itemvalue="Application.test03" />
+      <item index="2" class="java.lang.String" itemvalue="Application.lockTest01" />
+      <item index="3" class="java.lang.String" itemvalue="Application.lockTest02" />
+      <item index="4" class="java.lang.String" itemvalue="Application.lockTest03" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.lockTest02" />
-        <item index="1" class="java.lang.String" itemvalue="Application.lockTest01" />
-        <item index="2" class="java.lang.String" itemvalue="Application.test03" />
-        <item index="3" class="java.lang.String" itemvalue="Application.test02" />
-        <item index="4" class="java.lang.String" itemvalue="Application.test01" />
+        <item index="0" class="java.lang.String" itemvalue="Application.lockTest03" />
+        <item index="1" class="java.lang.String" itemvalue="Application.lockTest02" />
+        <item index="2" class="java.lang.String" itemvalue="Application.lockTest01" />
+        <item index="3" class="java.lang.String" itemvalue="Application.test03" />
+        <item index="4" class="java.lang.String" itemvalue="Application.test02" />
       </list>
     </recent_temporary>
   </component>
@@ -568,12 +578,12 @@
       <workItem from="1513666423122" duration="46434000" />
       <workItem from="1513929304802" duration="4166000" />
       <workItem from="1514293283924" duration="2250000" />
-      <workItem from="1516000657863" duration="31460000" />
+      <workItem from="1516000657863" duration="32532000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89983000" />
+    <option name="totallyTimeSpent" value="91055000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -597,7 +607,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32706222" sideWeight="0.5028818" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299712" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2952243" sideWeight="0.49711815" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2952243" sideWeight="0.49711815" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850942" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47467437" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -632,13 +642,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/stop/StopTest01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="46" lean-forward="true" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/stop/StopTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-7">
@@ -1134,7 +1137,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Lock/lockTest02.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
+        <state relative-caret-position="255">
           <caret line="15" column="12" lean-forward="false" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1142,6 +1145,24 @@
             <element signature="e#660#661#0" expanded="true" />
             <element signature="e#699#700#0" expanded="true" />
             <element signature="e#732#733#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Lock/lockTest03.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2233#2234#0" expanded="true" />
+            <element signature="e#2275#2276#0" expanded="true" />
+            <element signature="e#2314#2315#0" expanded="true" />
+            <element signature="e#2348#2349#0" expanded="true" />
+            <element signature="e#2460#2461#0" expanded="true" />
+            <element signature="e#2502#2503#0" expanded="true" />
+            <element signature="e#2541#2542#0" expanded="true" />
+            <element signature="e#2575#2576#0" expanded="true" />
           </folding>
         </state>
       </provider>
