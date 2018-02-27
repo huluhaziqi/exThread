@@ -9,7 +9,7 @@ public class SingleTon04 {
         connectionFacotry;
         private Connection connection;
 
-        private MySingleTon() {
+        MySingleTon() {
             System.out.println("创建");
             String url = "jdbc:sqlserver://localhost:8080;databaseName=lin";
             String username = "root";
@@ -23,6 +23,7 @@ public class SingleTon04 {
             } catch (SQLException e) {
                 e.printStackTrace();
             }
+
         }
 
         public Connection getConnection() {
