@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="172665a6-3462-4c58-b83c-ca87c3d81ee5" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/group/GroupTest04.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/group/GroupTest05.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -65,15 +65,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GroupTest04.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GroupTest04.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/group/GroupTest04.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="66" lean-forward="false" selection-start-line="8" selection-start-column="66" selection-end-line="8" selection-end-column="66" />
+            <state relative-caret-position="425">
+              <caret line="25" column="55" lean-forward="true" selection-start-line="25" selection-start-column="55" selection-end-line="25" selection-end-column="55" />
               <folding>
-                <element signature="e#702#703#0" expanded="true" />
                 <element signature="e#738#739#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GroupTest05.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/group/GroupTest05.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="319">
+              <caret line="22" column="60" lean-forward="true" selection-start-line="22" selection-start-column="60" selection-end-line="22" selection-end-column="60" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -118,7 +127,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/synchronize/SynchronizedTest13.java" />
         <option value="$PROJECT_DIR$/src/main/java/volatileTest/VolatileTest01.java" />
         <option value="$PROJECT_DIR$/src/main/java/volatileTest/VolatileTest02.java" />
         <option value="$PROJECT_DIR$/src/main/java/volatileTest/AtomicTest.java" />
@@ -169,6 +177,7 @@
         <option value="$PROJECT_DIR$/src/main/java/group/GroupTest02.java" />
         <option value="$PROJECT_DIR$/src/main/java/group/GroupTest03.java" />
         <option value="$PROJECT_DIR$/src/main/java/group/GroupTest04.java" />
+        <option value="$PROJECT_DIR$/src/main/java/group/GroupTest05.java" />
       </list>
     </option>
   </component>
@@ -244,6 +253,14 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ExThread" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ExThread" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="group" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -275,7 +292,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GroupTest04">
+  <component name="RunManager" selected="Application.GroupTest05">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -358,14 +375,14 @@
       <module name="ExThread" />
       <envs />
     </configuration>
-    <configuration name="Test02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="GroupTest05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="single.*" />
+          <option name="PATTERN" value="group.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="single.Test02" />
+      <option name="MAIN_CLASS_NAME" value="group.GroupTest05" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -452,19 +469,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Test02" />
-      <item index="1" class="java.lang.String" itemvalue="Application.GroupTest01" />
-      <item index="2" class="java.lang.String" itemvalue="Application.GroupTest02" />
-      <item index="3" class="java.lang.String" itemvalue="Application.GroupTest03" />
-      <item index="4" class="java.lang.String" itemvalue="Application.GroupTest04" />
+      <item index="0" class="java.lang.String" itemvalue="Application.GroupTest01" />
+      <item index="1" class="java.lang.String" itemvalue="Application.GroupTest02" />
+      <item index="2" class="java.lang.String" itemvalue="Application.GroupTest03" />
+      <item index="3" class="java.lang.String" itemvalue="Application.GroupTest04" />
+      <item index="4" class="java.lang.String" itemvalue="Application.GroupTest05" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.GroupTest04" />
-        <item index="1" class="java.lang.String" itemvalue="Application.GroupTest03" />
-        <item index="2" class="java.lang.String" itemvalue="Application.GroupTest02" />
-        <item index="3" class="java.lang.String" itemvalue="Application.GroupTest01" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Test02" />
+        <item index="0" class="java.lang.String" itemvalue="Application.GroupTest05" />
+        <item index="1" class="java.lang.String" itemvalue="Application.GroupTest04" />
+        <item index="2" class="java.lang.String" itemvalue="Application.GroupTest03" />
+        <item index="3" class="java.lang.String" itemvalue="Application.GroupTest02" />
+        <item index="4" class="java.lang.String" itemvalue="Application.GroupTest01" />
       </list>
     </recent_temporary>
   </component>
@@ -489,12 +506,12 @@
       <workItem from="1516000657863" duration="40227000" />
       <workItem from="1519454408450" duration="11598000" />
       <workItem from="1519467552918" duration="19233000" />
-      <workItem from="1519783462146" duration="3057000" />
+      <workItem from="1519783462146" duration="4982000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="132638000" />
+    <option name="totallyTimeSpent" value="134563000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -518,9 +535,9 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32706222" sideWeight="0.5028818" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299712" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4804631" sideWeight="0.49711815" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850942" sideWeight="0.49711815" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850942" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31465518" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23154847" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28602305" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -553,13 +570,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/pipe/PipeWriterAndReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pipe/PipeTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-391">
@@ -917,12 +927,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/group/GroupTest04.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="66" lean-forward="false" selection-start-line="8" selection-start-column="66" selection-end-line="8" selection-end-column="66" />
+        <state relative-caret-position="425">
+          <caret line="25" column="55" lean-forward="true" selection-start-line="25" selection-start-column="55" selection-end-line="25" selection-end-column="55" />
           <folding>
-            <element signature="e#702#703#0" expanded="true" />
             <element signature="e#738#739#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/group/GroupTest05.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="22" column="60" lean-forward="true" selection-start-line="22" selection-start-column="60" selection-end-line="22" selection-end-column="60" />
+          <folding />
         </state>
       </provider>
     </entry>
