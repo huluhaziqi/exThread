@@ -11,6 +11,7 @@ public class UncaughtExceptionTest01 {
             }
         });
         myThread.start();
+
     }
 }
 
