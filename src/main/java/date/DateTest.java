@@ -1,7 +1,6 @@
 package date;
 
 import java.text.ParseException;
-import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class DateTest {
@@ -14,11 +13,16 @@ public class DateTest {
             myThread01s[i] = new MyThread01(dateStringArray[i]);
             myThread01s[i].start();
         }
+
+        MyThread02[] myThread02s = new MyThread02[10];
+        for(int i = 0 ;i < 10; i++){
+            myThread02s[i] = new MyThread02(dateStringArray[i]);
+            myThread02s[i].start();
+        }
     }
 }
 
 class MyThread01 extends Thread {
-    private SimpleDateFormat simpleDateFormat;
 
     private String dateString;
 
@@ -31,7 +35,30 @@ class MyThread01 extends Thread {
         try {
             Date date = DateTools.parse("yyyy-MM-dd", dateString);
             String newDateString = DateTools.format("yyyy-MM-dd", date);
-            if (!newDateString.equals(dateString)) {
+            if (newDateString.equals(dateString)) {
+                System.out.println(dateString + " " + newDateString);
+            }
+        } catch (ParseException e) {
+            e.printStackTrace();
+        }
+    }
+}
+
+
+class MyThread02 extends Thread {
+
+    private String dateString;
+
+    public MyThread02(String dateString) {
+        this.dateString = dateString;
+    }
+
+    @Override
+    public void run() {
+        try {
+            Date date = DateTools.getSimpleDateFormat("yyyy-MM-dd").parse(dateString);
+            String newDateString = DateTools.getSimpleDateFormat("yyyy-MM-dd").format(date);
+            if (newDateString.equals(dateString)) {
                 System.out.println(dateString + " " + newDateString);
             }
         } catch (ParseException e) {
